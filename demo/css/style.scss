@@ -1,0 +1,57 @@
+
+$colorblack:black;
+$colorgreen:green;
+$colorwhite:white;
+$colorred:red;
+*
+{
+    padding:0px;
+    margin:0px;
+}
+body
+{
+    font-family: arial;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.cls-container
+{ 
+
+    .cls-navcontainer
+    {
+    border:1px solid $colorred;
+    width:800px;
+    margin: 0px auto;
+    a
+    {
+        font-size: 20px;
+        line-height: 25px;
+        display:inline-block;
+        color:$colorblack;
+        background: $colorgreen;
+        text-decoration: none;
+        text-transform: capitalize;
+        padding:12px 20px;
+        &:hover,&.active
+        {
+            color:$colorblack;
+            background:$colorwhite;
+        }
+    }
+    }
+    .cls-bodycontainer
+    {
+        border:1px solid $colorred;
+        width:800px;
+        margin: 0px auto;
+        .cls-show
+        {
+            padding:20px;
+            height:150px;
+            border:1px solid red; 
+            display: none;
+        }
+
+    }
+}

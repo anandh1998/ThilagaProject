@@ -1,0 +1,41 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: arial;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.cls-container .cls-navcontainer {
+  border: 1px solid red;
+  width: 800px;
+  margin: 0px auto;
+}
+.cls-container .cls-navcontainer a {
+  font-size: 20px;
+  line-height: 25px;
+  display: inline-block;
+  color: black;
+  background: green;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 12px 20px;
+}
+.cls-container .cls-navcontainer a:hover, .cls-container .cls-navcontainer a.active {
+  color: black;
+  background: white;
+}
+.cls-container .cls-bodycontainer {
+  border: 1px solid red;
+  width: 800px;
+  margin: 0px auto;
+}
+.cls-container .cls-bodycontainer .cls-show {
+  padding: 20px;
+  height: 150px;
+  border: 1px solid red;
+  display: none;
+}/*# sourceMappingURL=style.css.map */
